@@ -1,0 +1,2 @@
+# SelfProjection
+AllKinds
