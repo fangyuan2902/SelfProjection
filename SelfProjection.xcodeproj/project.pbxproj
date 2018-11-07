@@ -13,7 +13,7 @@
 		04E473152192787200CEF3CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E473142192787200CEF3CE /* Assets.xcassets */; };
 		04E473182192787200CEF3CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E473162192787200CEF3CE /* LaunchScreen.storyboard */; };
 		04E4731B2192787200CEF3CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4731A2192787200CEF3CE /* main.m */; };
-		04E47324219278E900CEF3CE /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E47323219278E900CEF3CE /* CommonUtils.m */; };
+		04E4732821927A5100CEF3CE /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4732721927A5100CEF3CE /* CommonUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		04E473172192787200CEF3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E473192192787200CEF3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E4731A2192787200CEF3CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04E47322219278E900CEF3CE /* CommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtils.h; sourceTree = "<group>"; };
-		04E47323219278E900CEF3CE /* CommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtils.m; sourceTree = "<group>"; };
+		04E4732621927A5100CEF3CE /* CommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtils.h; sourceTree = "<group>"; };
+		04E4732721927A5100CEF3CE /* CommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				04E4730C2192786F00CEF3CE /* AppDelegate.m */,
 				04E4730E2192786F00CEF3CE /* ViewController.h */,
 				04E4730F2192786F00CEF3CE /* ViewController.m */,
-				04E47321219278D400CEF3CE /* CommonUtils */,
+				04E4732521927A5100CEF3CE /* CommonUtils */,
 				04E473112192786F00CEF3CE /* Main.storyboard */,
 				04E473142192787200CEF3CE /* Assets.xcassets */,
 				04E473162192787200CEF3CE /* LaunchScreen.storyboard */,
@@ -75,14 +75,14 @@
 			path = SelfProjection;
 			sourceTree = "<group>";
 		};
-		04E47321219278D400CEF3CE /* CommonUtils */ = {
+		04E4732521927A5100CEF3CE /* CommonUtils */ = {
 			isa = PBXGroup;
 			children = (
-				04E47322219278E900CEF3CE /* CommonUtils.h */,
-				04E47323219278E900CEF3CE /* CommonUtils.m */,
+				04E4732621927A5100CEF3CE /* CommonUtils.h */,
+				04E4732721927A5100CEF3CE /* CommonUtils.m */,
 			);
 			path = CommonUtils;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -156,7 +156,7 @@
 			files = (
 				04E473102192786F00CEF3CE /* ViewController.m in Sources */,
 				04E4731B2192787200CEF3CE /* main.m in Sources */,
-				04E47324219278E900CEF3CE /* CommonUtils.m in Sources */,
+				04E4732821927A5100CEF3CE /* CommonUtils.m in Sources */,
 				04E4730D2192786F00CEF3CE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
